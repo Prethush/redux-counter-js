@@ -1,0 +1,21 @@
+{
+  "name": "redux-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./tailwind.css -o ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prethush/redux-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prethush/redux-counter/issues"
+  },
+  "homepage": "https://github.com/Prethush/redux-counter#readme"
+}

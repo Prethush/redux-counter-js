@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.1/redux.js"
+    integrity="sha512-VSziEhiRlxaN8AZfc5UQiEnrcwM3KOp0GRITlYcQ7BCsEPq/VQMApwoZoh8zL69oo/Of+uVt/nygZbJAMst6jA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <main class="pt-8">
+    <h1 class="text-center py-8 text-3xl font-bold">Counter App</h1>
+    <div class="flex flex-col items-center">
+      <h2 class="text-5xl font-bold"></h2>
+      <div class="mt-6 flex">
+        <div class="mx-4">
+          <h3 class="text-center mb-6 text-xl font-bold">Steps</h3>
+          <div>
+            <button data-value=5 id="five" class="px-4 py-2 text-white rounded-md mx-2 bg-blue-500 step">5</button>
+            <button data-value=10 id="ten" class="px-4 py-2 text-white rounded-md mx-2 bg-blue-500 step">10</button>
+            <button data-value=15 id="fifteen" class="px-4 py-2 text-white rounded-md mx-2 bg-blue-500 step">15</button>
+          </div>
+        </div>
+        <div class="mx-4">
+          <h3 class="text-center mb-6 text-xl font-bold">Max Value</h3>
+          <div>
+            <button id="max1" class="px-4 py-2 text-white rounded-md mx-2 bg-blue-500 max">15</button>
+            <button id="max2" class="px-4 py-2 text-white rounded-md mx-2 bg-blue-500 max">100</button>
+            <button id="max3" class="px-4 py-2 text-white rounded-md mx-2 bg-blue-500 max">200</button>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8">
+        <button class="increment text-xl px-4 py-2 bg-green-500 text-white mx-2 rounded-md">Increment</button>
+        <button class="decrement text-xl px-4 py-2 bg-green-500 text-white mx-2 rounded-md">Decrement</button>
+        <button class="reset text-xl px-4 py-2 bg-green-500 text-white mx-2 rounded-md">Reset</button>
+      </div>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
